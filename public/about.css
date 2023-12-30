@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+}
+
+.header {
+    height: 50px;
+    width: 100px;
+    background-color: rgb(50, 168, 121);
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 25%;
+    display: block;
+    font-size: x-large;
+    color: darkgreen;   
+}
+
+a:hover {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+.header:hover {
+    background-color: lightgreen;
+}
+
+#image {
+    width: 250px;
+    height: 250px;
+    display: block;
+
+}
+
+.btn {
+    height: 50px;
+    width: 250px;
+    background-color: rgb(50, 168, 121);
+    display: absolute;
+    border-radius: 10px;
+    z-index: 100;
+}
+
+.btn:hover {
+    background-color: lightgreen;
+}
+
+h3 {
+    color: white;
+}

@@ -1,0 +1,68 @@
+.header {
+    height: 75px;
+    width: 80%;
+    background-color: rgb(50, 168, 121);
+    display: absolute;
+    border-radius: 20px;
+    z-index: 100;
+}
+
+body {
+    background-color: black;    
+}
+
+.parent {
+    height: 75px;
+    width: 100%;
+    background-color: rgb(50, 168, 121);
+    display: absolute;
+    z-index: 100;
+    padding-left: 20%;
+}
+
+.logo {
+    padding: 14px;
+    display: block;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    color: aliceblue;
+}
+
+a:hover {
+    color: turquoise;
+}
+
+.title {
+    color: white;
+    padding-left: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ol {
+    padding-left: 22%;
+    color: white;
+}
+
+#content {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20%;
+}
+
+.link {
+    font-size: 24px;
+    color: white;
+}
+
+.footer {
+    height: 100px;
+    width: 100%;
+    padding-top: 20px;
+    background-color: rgb(50, 168, 121);
+}
+
+.credit {
+    color: white;
+    padding-left: 45%;
+}
